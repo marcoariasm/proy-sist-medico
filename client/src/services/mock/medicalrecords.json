@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "idPatient": 1,
+    "names": "Adriana",
+    "lastNames": "Arias Mesía",
+    "generalInformation": {
+      "age": 40,
+      "size": 1.50,
+      "weight": 45
+    },
+    "background": {
+      "allergies": "Penicilina, aines",
+      "diseases": "Diabetes, tos, hipertensión",
+      "diagnostic": "Caries",
+      "medication": "Aspirina",
+      "collaboration": "Receptivo",
+      "pregnant": false,
+      "monthsPregnacy": 0,
+      "extractions": false,
+      "hemorrhages": false,
+      "infections": false,
+      "vih": false,
+      "anesthesiaProblems": false,
+      "operativeComplications": false
+    },
+    "records": [
+      {
+        "idRecord": 1,
+        "type": "consultation",
+        "date": "04-18-2022",
+        "hour": "12:05pm",
+        "informedConsentSignDate": "04-19-2022",
+        "operator": "Dra. Yessica",
+        "motive": "Me salió un bulto y tengo dolor",
+        "situationByTooth": [
+          {
+            "id": 14,
+            "done": "absent",
+            "toDo": "perno"
+          }
+        ],
+        "notes": "Lorem ipsum dolor sit amet consectetur, aliuapsid kñiueup"
+      },
+      {
+        "idRecord": 2,
+        "type": "evolution",
+        "date": "04-19-2022",
+        "hour": "1:45pm",
+        "operator": "Dra. Rosario",
+        "informedConsentSignDate": "",
+        "motive": "",
+        "situationByTooth": [{"id": 0, "done": "", "toDo": ""}],
+        "notes": "Dra. Rosario colocó perno en la pieza 14, no quedan pendientes"
+      }
+    ]
+  }
+]

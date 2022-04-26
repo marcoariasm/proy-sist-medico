@@ -1,0 +1,16 @@
+npx create-react-app .
+
+npm install admin-lte --save
+
+copy folders   /dist   /plugin   to:
+    /public
+
+
+
+
+REACT CHARTJS
+
+npm install --save react-chartjs-2 chart.js
+
+
+

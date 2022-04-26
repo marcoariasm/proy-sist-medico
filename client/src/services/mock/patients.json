@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "names": "Adriana",
+    "lastNames": "Arias Mesía",
+    "document": "DNI",
+    "numberDocument": "36445698",
+    "email": "Sincere@april.biz",
+    "birthdate": "03-15-1983",
+    "address": {
+      "street": "Av. Separadora Industrial 2968",
+      "zone": "La Molina",
+      "city": "Lima",
+      "zipcode": "15012",
+      "cellphone": "999973851",
+      "telephone": "3496512"
+    },
+    "howDidYouKnow": "Marco Arias",
+    "hasMedicalRecord": true,
+    "underAge": false,
+    "representantive": "",
+    "progressTreatments": "EN PROGRESO",
+    "progressPayments": "SALDO"
+  },
+  {
+    "id": 1,
+    "names": "Marco Antonio",
+    "lastNames": "Arias Mesía",
+    "document": "DNI",
+    "numberDocument": "40442901",
+    "email": "marcoarias@outlook.com",
+    "birthdate": "11-15-1979",
+    "address": {
+      "street": "Av. Separadora Industrial 2966 - Dpto 301",
+      "zone": "La Molina",
+      "city": "Lima",
+      "zipcode": "15012",
+      "cellphone": "995390686",
+      "telephone": "3496512"
+    },
+    "howDidYouKnow": "Dra. Yessica",
+    "hasMedicalRecord": false,
+    "underAge": false,
+    "representantive": "",
+    "progressTreatments": "-",
+    "progressPayments": "-"
+  }
+]

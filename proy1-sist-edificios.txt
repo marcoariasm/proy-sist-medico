@@ -1,0 +1,24 @@
+proy1-sist-edificios
+
+echo "# proy1-sist-edificios" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/marcoariasm/proy1-sist-edificios.git
+git push -u origin main
+
+
+client
+server
+
+COMMITS
+feat: Una nueva característica para el usuario.
+fix: Arregla un bug que afecta al usuario.
+perf: Cambios que mejoran el rendimiento del sitio.
+build: Cambios en el sistema de build, tareas de despliegue o instalación.
+ci: Cambios en la integración continua.
+docs: Cambios en la documentación.
+refactor: Refactorización del código como cambios de nombre de variables o funciones.
+style: Cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
+test: añade tests al código

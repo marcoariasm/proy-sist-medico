@@ -1,0 +1,205 @@
+FLUJO DE UNA CONSULTA SIMPLE
+El paciente ingresa y solicita atención
+Se le toman sus datos generales para su registro general
+Entrevista breve sobre su situación y se programa su consulta o se le atiende en el momento
+
+Si la consulta es en el mismo momento, pasa a consulta
+Si es consulta y es paciente nuevo se paga antes del inicio de la consulta
+En consulta se le hace la evaluación
+*si hay más especialistas se le deriva al siguiente consultorio del especialista
+Se le presenta el diagnóstico de su salud bucal
+A continuación se le presenta el tratamiento y también el presupuesto y formas de pago
+Si el paciente acepta el tratamiento y el presupuesto, se le programan sus citas
+
+Si tiene cita para primera consulta se sigue con el flujo de consulta
+Si la cita es para tratamiento se le registra en recepción y pasa a sala de espera
+Cancela el tratamiento antes de pasar al consultorio
+En el consultorio se inicia el tratamiento / consulta
+Se le da la indicaciones y/o receta
+
+Se le recibe el pago si no pagó antes de pasar al consultorio
+Se programa la siguiente cita
+Fin.
+
+
+
+
+PROCESOS
+Registro del paciente
+	Nombre completo
+	Edad
+	Celular o fijo
+	Fecha de nacimiento
+	DNI (no solicita)
+	Apoderado si es menor de edad
+	Quién lo recomendó? cómo llegó?
+	Dirección
+	Correo electrónico
+	Nivel de instrucción
+	Sexo
+	.. formularios?
+
+Historia clínica
+	Antecedentes
+	
+Diagnóstico
+	Odontograma
+	Exámenes auxiliares
+
+Tratamientos
+	(internet)
+
+Plan de tratamiento
+
+Presupuesto
+	(internet)
+
+Especialidades
+	(internet)
+
+Personal
+	contractual
+	relación laboral
+
+Caja y pagos
+
+
+
+LISTA DE TRATAMIENTOS
+
+
+
+LISTA DE ESPECIALIDADES
+
+Implantología
+Periodoncia
+Rehabilitación
+Restauradora y estética
+Endodoncia
+Cirugía máxilo facial
+Ortodoncia
+Odontopediatría
+
+
+
+REQUERIMIENTOS
+1 Registro del paciente
+
+2 Historia clínica
+	Diagnóstico
+		Odontograma
+	Tratamiento
+3 Reserva de citas
+4 Presupuesto
+5 Plan de tratamiento
+6 Seguimiento al paciente 
+7 Caja o Pagos
+8 Recetario
+9 Inventario de medicamentos
+
+Los más importantes en orden de valor:
+2, 1
+
+
+
+REACT ODONTOGRAM
+https://codesandbox.io/s/myy7z75z9j?file=/src/Components/Tooth.css
+
+DENTALINK
+https://www.softwaredentalink.com/
+
+
+16:16 9/04/2022
+Marco y Yessica
+(Casa de Yessica)
+
+CHECKLIST
+Validar flujo
+Requerimientos (mínimo para 2 sprint)
+Documentos 
+	formularios
+	odontograma
+? Fuentes de información
+	google
+	internet
+
+
+HISTORIA CLÍNICA
+
+1° Motivo de consulta
+frecuencia con la que va al dentista, último tratamiento
+enfermedades existentes
+alergias a medicamentos
+mala experiencia odontológica
+condiciones si está embarazada o menstruando
+
+Odontograma
+Periodontograma (Periodoncia)
+Endodoncia (ficha de medidas de los conductos) -> texto escrito
+Ortodoncia (tiene su ficha especial) -> cuadro de medidas
+
+Diagnóstico presuntivo -> que se confirmaría con los examenes 
+A veces se requiere exámenes adicionales como radiografías o fotografías o examenes de laboratorio
+Diagnóstico definitivo
+
+Plan de tratamiento (incluye cantidad de tiempo aproximado de la duración del tto total)
+Presupuesto
+Evolución y/o avance
+
+
+
+
+EXAMEN CLINICO
+Peso y talla (para medicación) dósis básica para niños y para adultos
+
+
+
+
+
+
+
+GLOSARIO
+
+evolución
+tratamientos que se han hecho, por ej. dia 1 radiografía, dia 2 procedimiento tal
+
+plan de tratamiento
+guía de tratamientos que el paciente necesita, calendario y secuencia
+
+
+
+
+bs stepper
+https://github.com/Johann-S/bs-stepper/#how-to-use-it
+
+
+npm i contextmenu
+
+HREF NULL
+"javascript:void(0)"
+or better  "#"
+
+ENVIAR DATOS CON FETCH
+fetch('../post.php', {
+   method: 'POST',
+   body: data
+})
+
+HANDLE FORMS WITH REACT
+https://dev.to/smeijer/simple-form-handling-in-react-o72
+
+TUTORIAL REACT REDUX (BLOG Y YOUTUBE)
+https://www.valentinog.com/blog/redux/
+https://www.youtube.com/playlist?list=PLfNd7po_IV0GTfQb8RJirrt83BFMF-Lj0
+
+REACT.LAZY Y SUSPENSE
+https://blog.bitsrc.io/lazy-loading-react-components-with-react-lazy-and-suspense-f05c4cfde10c
+
+HOW TO TEST REST WEB SERVICES AND CONSUME IN REACT JS
+https://medium.com/@chathurangijks/how-to-develop-rest-web-services-in-soapui-and-consume-in-reactjs-cb24f9315389
+
+BUILDING SECURE OAUTH AND LOGIN IN REACT APPS
+https://betterprogramming.pub/building-secure-login-flow-with-oauth-2-openid-in-react-apps-ce6e8e29630a
+
+NOMENCLATURA ODONTOGRAMA
+https://sites.google.com/site/portafoliodeeduardoupchfaest/home/5-5-notacion-dentaria-registro-en-el-odontograma
